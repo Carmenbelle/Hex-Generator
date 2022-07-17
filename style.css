@@ -1,0 +1,31 @@
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    place-items: center;
+}
+
+span{
+    display: block;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: normal;
+    margin-bottom: 1rem;
+}
+
+section{
+    background: white;
+    padding: 2rem 6rem;
+    text-align: center;
+}
+
+section > button{
+    background: rgb(2, 170, 208);
+    border: rgb(2, 170, 208);
+    color: #fff;
+    cursor: pointer;
+    padding: 15px;
+    font-weight: 500;
+    border-radius: 9px;
+}
